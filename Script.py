@@ -2,10 +2,9 @@
 
 class script(object):
     START_TXT = """<b>Hᴇʏ {}🍁\n
-    ✦ ᴍʏ ɴᴀᴍᴇ ɪꜱ #FilmyWapX ,
-✦ ɪ ᴀᴍ ʙᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ʙᴏᴛ
-✦ ɪ ᴀᴍ ᴜꜱɪɴɢ ᴀɪ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ
- !!</b>"""
+✦ ᴍʏ ɴᴀᴍᴇ ɪꜱ #FilmyWapX 
+✦ ɪ ᴀᴍ ʙᴇꜱᴛ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ ʙᴏᴛ
+✦ ɪ ᴀᴍ ᴜꜱɪɴɢ ᴀɪ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ !!</b>"""
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
 
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
@@ -415,11 +414,14 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 /movie_update_off - update off
 /movie_update_on - Movie Update on</blockquote></b>"""
 
-    SOURCE_TXT = """<b>
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JISSHU_BOTS/685">&lt;Click Here&gt;</a></blockquote>
+    SOURCE_TXT = """<b>❏ Wᴇ ɢɪᴠᴇ ʏᴏᴜ ᴀʟʟ ᴛʜɪꜱ ᴄᴏɴᴛᴇɴᴛ  ғʀᴇᴇ ᴏғ ᴄᴏꜱᴛ
+ᴀɴᴅ ᴛʜɪꜱ ɢɪᴠᴇꜱ ᴜꜱ ɢʀᴇᴀᴛ ʜᴀᴘᴘɪɴᴇꜱꜱ 
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @jisshu_bots
-</b>"""
+❏Bᴜᴛ ғᴏʀ ᴀʟʟ ᴛʜɪꜱ ᴡᴇ ʜᴀᴠᴇ ᴛᴏ ꜱᴘᴇɴᴅ ᴏɴ ꜱᴇʀᴠᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴛʜɪɴɢꜱ
+
+❏ Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋᴇᴇᴘ ᴘʀᴏᴠɪᴅɪɴɢ ꜱᴜᴄʜ ғʀᴇᴇ ᴏғ ᴄᴏꜱᴛ ᴄᴏɴᴛᴇɴᴛ 
+
+❏Tʜᴇɴ ᴘʟᴇᴀꜱᴇ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ᴀ ʟɪᴛᴛʟᴇ</b>"""
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
 /set_verify {website link} {website api}
