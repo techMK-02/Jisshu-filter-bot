@@ -39,9 +39,9 @@ class script(object):
 › ᴠɪᴋɪɴɢꜱ ꜱᴇᴀꜱᴏɴ 1 ❌ 
 › ᴠɪᴋɪɴɢꜱ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ❌ </b>
 <blockquote> ➜<b> <a href='https://t.me/+A_-yDwUbIM9jODhl'>ɪғ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ɴᴏᴛ ғᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ ꜱᴇɴᴅ ɴᴀᴍᴇ ɪɴ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ</a>.</b> </blockquote>"""
-    ABOUT_TEXT = """<blockquote> <b> <a href='tg://settings'>ℍ𝕖𝕝𝕝𝕠 𝔽𝕣𝕚𝕖𝕟𝕕𝕤</a>.</b> </blockquote>
+    ABOUT_TEXT = """<blockquote> <b> <a href='tg://settings'>ℍ𝕖𝕝𝕝𝕠 𝔽𝕣𝕚𝕖𝕟𝕕𝕤</a></b> </blockquote>
     
-    ʙᴇғᴏʀᴇ ʏᴏᴜ ꜱᴇᴀʀᴄʜ ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ʀᴇᴀᴅ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ᴀɴᴅ ʀᴜʟᴇꜱ</b>"""
+    <b>ʙᴇғᴏʀᴇ ʏᴏᴜ ꜱᴇᴀʀᴄʜ ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ʀᴇᴀᴅ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ᴀɴᴅ ʀᴜʟᴇꜱ</b>"""
 
     SUPPORT_GRP_MOVIE_TEXT = """<b>ʜᴇʏ {}
 
