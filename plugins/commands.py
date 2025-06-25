@@ -154,8 +154,8 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋",
-                    url=f"http://telegram.dog/{temp.U_NAME}?startgroup=start",
+                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                    url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
@@ -196,8 +196,8 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋",
-                    url=f"http://telegram.dog/{temp.U_NAME}?startgroup=start",
+                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                    url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
