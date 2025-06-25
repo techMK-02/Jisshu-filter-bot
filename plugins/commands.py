@@ -154,18 +154,24 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⇋",
+                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
                     url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
-                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="help"),
-                InlineKeyboardButton("• ғᴇᴀᴛᴜʀᴇꜱ •", callback_data="special"),
+                InlineKeyboardButton("• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •", callback_data="jisshupremium"),
+                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ɴᴏᴛɪᴄᴇ •", callback_data="about"),
-                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="jisshupremium"),
-            ]
+                InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
+                InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
+            ],
+            [
+                InlineKeyboardButton(
+                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
+                )
+            ],
+        ]
         reply_markup = InlineKeyboardMarkup(buttons)
         m = await message.reply_sticker(
             "CAACAgUAAx0CZz_GMwACMBdnXZA4SejgJ6a_0TrNzOfn9ImI_QACNwsAArT4iFVaZPJf8ldVVh4E"
@@ -190,18 +196,24 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⇋",
+                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
                     url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
-                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="help"),
-                InlineKeyboardButton("• ғᴇᴀᴛᴜʀᴇꜱ •", callback_data="special"),
+                InlineKeyboardButton("• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •", callback_data="jisshupremium"),
+                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ɴᴏᴛɪᴄᴇ •", callback_data="about"),
-                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="jisshupremium"),
-            ]
+                InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
+                InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
+            ],
+            [
+                InlineKeyboardButton(
+                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
+                )
+            ],
+        ]
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(
             photo=START_IMG,
