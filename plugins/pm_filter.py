@@ -1554,13 +1554,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "disclaimer":
         btn = [
-            [
-                InlineKeyboardButton(
-                    " ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/Filmyxsupport"
-                )
-            ],
-            [InlineKeyboardButton("⋞ ʙᴀᴄᴋ ", callback_data="about")],
-        ]
+         [
+             InlineKeyboardButton("⇆ ʙᴀᴄᴋ", url="https://t.me/Filmyxsupport"),
+             InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ⇆", callback_data="about")
+         ]
+         ]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.edit_text(
             text=(script.DISCLAIMER_TXT),
