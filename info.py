@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://filmywabx.onrender.com")
+URL = environ.get("FQDN", "https://filmywabx.onrender.com/")
 
 # Commands
 admin_cmds = [
