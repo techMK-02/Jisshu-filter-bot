@@ -1305,8 +1305,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋",
-                    url=f"http://telegram.dog/{temp.U_NAME}?startgroup=start",
+                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                    url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
