@@ -31,13 +31,9 @@ class script(object):
 
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/JISSHU_BOTS'>Jisshu Bots &lt;/&gt;</a></b></blockquote>"""
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Jisshu filter bot
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/JISSHU_BOTS'>Jisshu Bots &lt;/&gt;</a>
-‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
-‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
-‣ ʜᴏsᴛᴇᴅ ᴏɴ  :  ᴡᴇʙ
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : V-4.1 [sᴛᴀʙʟᴇ]</b></blockquote>"""
+    ABOUT_TEXT = """<blockquote><b>ℍ𝕖𝕝𝕝𝕠 𝔽𝕣𝕚𝕖𝕟𝕕𝕤<blockquote>
+
+ʙᴇғᴏʀᴇ ʏᴏᴜ ꜱᴇᴀʀᴄʜ ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ʀᴇᴀᴅ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ᴀɴᴅ ʀᴜʟᴇꜱ</b>"""
 
     SUPPORT_GRP_MOVIE_TEXT = """<b>ʜᴇʏ {}
 
