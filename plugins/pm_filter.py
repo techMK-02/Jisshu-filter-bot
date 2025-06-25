@@ -1513,13 +1513,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton(
-                            "‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️", callback_data="disclaimer"
+                            "‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️", url="https://telegra.ph/𝗗𝗶𝘀𝗰𝗹𝗮𝗶𝗺𝗲𝗿-06-25"
                         )
                     ],
                     [
-                        InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data="source"),
+                        InlineKeyboardButton("• ʀᴜʟᴇꜱ", callback_data="disclaimer"),
                         InlineKeyboardButton(
-                            "ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs", callback_data="mydevelopers"
+                            "ʀᴜʟᴇꜱ •", callback_data="disclaimer"
                         ),
                     ],
                     [InlineKeyboardButton("⋞ ʜᴏᴍᴇ", callback_data="start")],
@@ -1556,10 +1556,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/{OWNER_USERNAME}"
+                    " ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/Filmyxsupport"
                 )
             ],
-            [InlineKeyboardButton("⇋ ʙᴀᴄᴋ ⇋", callback_data="about")],
+            [InlineKeyboardButton("⋞ ʙᴀᴄᴋ ", callback_data="about")],
         ]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.edit_text(
