@@ -166,11 +166,6 @@ async def start(client: Client, message):
                 InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
                 InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
             ],
-            [
-                InlineKeyboardButton(
-                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
-                )
-            ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         m = await message.reply_sticker(
@@ -207,11 +202,6 @@ async def start(client: Client, message):
             [
                 InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
                 InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
-            ],
-            [
-                InlineKeyboardButton(
-                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
-                )
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
