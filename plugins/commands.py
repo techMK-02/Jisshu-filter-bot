@@ -154,7 +154,7 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                    "🔰  ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  🔰",
                     url=f"https://t.me/FilmyXupdateS",
                 )
             ],
@@ -191,7 +191,7 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ",
+                    "🔰  ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  🔰",
                     url=f"https://t.me/FilmyXupdateS",
                 )
             ],
