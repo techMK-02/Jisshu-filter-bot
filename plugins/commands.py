@@ -163,7 +163,7 @@ async def start(client: Client, message):
                 InlineKeyboardButton("• ғᴇᴀᴛᴜʀᴇꜱ •", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="jisshupremium"),
+                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="source"),
                 InlineKeyboardButton("• ɴᴏᴛɪᴄᴇ •", callback_data="about"),
             ],
         ]
@@ -200,7 +200,7 @@ async def start(client: Client, message):
                 InlineKeyboardButton("• ғᴇᴀᴛᴜʀᴇꜱ •", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="jisshupremium"),
+                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="source"),
                 InlineKeyboardButton("• ɴᴏᴛɪᴄᴇ •", callback_data="about"),
             ],
         ]
