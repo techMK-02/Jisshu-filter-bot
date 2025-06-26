@@ -1314,7 +1314,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("• ғᴇᴀᴛᴜʀᴇꜱ •", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="jisshupremium"),
+                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="source"),
                 InlineKeyboardButton("• ɴᴏᴛɪᴄᴇ •", callback_data="about"),
             ],
         ]
@@ -1532,12 +1532,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʀᴇᴘᴏ", url="https://github.com/JisshuTG/Jisshu-filter-bot"
+                    "ᴅᴏɴᴀᴛᴇ ᴏɴ ᴜᴘɪ", url="https://wabxdonate.vercel.app/"
                 )
             ],
             [
-                InlineKeyboardButton("⋞ ʙᴀᴄᴋ", callback_data="about"),
-                InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="close_data"),
+                InlineKeyboardButton("⋞ ʙᴀᴄᴋ", callback_data="start"),
+                InlineKeyboardButton("ᴘʀᴏᴏғꜱ •", url="https://t.me/+LpXXQBHePpo2Nzll"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
