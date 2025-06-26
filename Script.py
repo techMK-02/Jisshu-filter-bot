@@ -417,7 +417,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 /movie_update_off - update off
 /movie_update_on - Movie Update on</blockquote></b>"""
 
-    SOURCE_TXT = """<blockquote> <b>❏ Wᴇ ɢɪᴠᴇ ʏᴏᴜ ᴀʟʟ ᴛʜɪꜱ ᴄᴏɴᴛᴇɴᴛ 
+    SOURCE_TXT = """<blockquote><b>❏ Wᴇ ɢɪᴠᴇ ʏᴏᴜ ᴀʟʟ ᴛʜɪꜱ ᴄᴏɴᴛᴇɴᴛ 
                   ғʀᴇᴇ ᴏғ ᴄᴏꜱᴛ
 ᴀɴᴅ ᴛʜɪꜱ ɢɪᴠᴇꜱ ᴜꜱ ɢʀᴇᴀᴛ ʜᴀᴘᴘɪɴᴇꜱꜱ 
 
