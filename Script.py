@@ -7,15 +7,15 @@ class script(object):
 ✦ ɪ ᴀᴍ ᴜꜱɪɴɢ ᴀɪ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ !!</b>"""
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
 
-    TELE_TXT = """<blockquote> /id ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ. 🆔 </blockquote>
+    TELE_TXT = """<blockquote><b>/id ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ. 🆔</b></blockquote>
 
-<blockquote>/font <code>{ʏᴏᴜʀ_ᴛxᴛ} </code>
-ꜱᴇɴᴅ ᴛᴇxᴛ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ 🆎
-ғᴏʀ ɢᴇɴᴇʀᴀᴛᴇ ᴄᴏᴏʟ & ᴀᴍᴀᴢɪɴɢ ғᴏɴᴛꜱ..</blockquote>
+<blockquote><b>/font <code>{ʏᴏᴜʀ_ᴛxᴛ}</code><br>
+ꜱᴇɴᴅ ᴛᴇxᴛ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ 🆎<br>
+ғᴏʀ ɢᴇɴᴇʀᴀᴛᴇ ᴄᴏᴏʟ & ᴀᴍᴀᴢɪɴɢ ғᴏɴᴛꜱ..</b></blockquote>
 
-<blockquote>/telegraph 
-ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 𝟻ᴍʙ
-ᴛʜᴇɴ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ...</blockquote>"""
+<blockquote><b>/telegraph <br>
+ꜱᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 𝟻ᴍʙ<br>
+ᴛʜᴇɴ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ...</b></blockquote>"""
 
     FORCESUB_TEXT = """<b>
 ʏᴏᴜ ᴅᴏ ɴᴏᴛ ᴊᴏɪɴ ᴍʏ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ ғɪʀsᴛ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ.
