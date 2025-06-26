@@ -119,7 +119,9 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<blockquote>{default_caption}</blockquote>"""
+    FILE_CAPTION = """<blockquote>{file_name}</blockquote>
+
+➥𝗖𝗵𝗮𝗻𝗻𝗲𝗹:  @WabXBots"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
