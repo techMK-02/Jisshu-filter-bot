@@ -421,7 +421,8 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 ❏ Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋᴇᴇᴘ 
 ᴘʀᴏᴠɪᴅɪɴɢ ꜱᴜᴄʜ ғʀᴇᴇ ᴏғ ᴄᴏꜱᴛ ᴄᴏɴᴛᴇɴᴛ 
 
-❏ Tʜᴇɴ ᴘʟᴇᴀꜱᴇ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ᴀ ʟɪᴛᴛʟᴇ.</b> </blockquote>"""
+❏ Tʜᴇɴ ᴘʟᴇᴀꜱᴇ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ᴀ ʟɪᴛᴛʟᴇ. </blockquote>
+UPI ➧ https://wabxdonate.vercel.app/ </b>"""
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
 /set_verify {website link} {website api}
