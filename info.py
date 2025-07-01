@@ -53,7 +53,7 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://King:Cobra765592@c
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002678697154"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002377246826"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
 request_channel = environ.get("REQUEST_CHANNEL", "0")
 REQUEST_CHANNEL = (
@@ -64,7 +64,7 @@ REQUEST_CHANNEL = (
 MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002543359852"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "iPapkorn4")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "FilmySupport")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/FilmyWabXGroup")
 
 # Verification
