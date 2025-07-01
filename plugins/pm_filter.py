@@ -1555,7 +1555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    " ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/Filmyxsupport"
+                    " ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/Filmysupport"
                 )
             ],
             [InlineKeyboardButton("⋞ ʙᴀᴄᴋ ", callback_data="about")],
