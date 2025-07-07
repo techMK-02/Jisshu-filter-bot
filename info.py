@@ -38,7 +38,7 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002553439091"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002552850586"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002829448169"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002652695292"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
@@ -96,32 +96,15 @@ LANGUAGES = [
     "telugu",
     "tamil",
     "kannada",
-    "malayalam",
-    "bengali",
-    "marathi",
-    "gujarati",
-    "punjabi",
-    "marathi",
 ]
 QUALITIES = [
-    "HdRip",
-    "web-dl",
-    "bluray",
-    "hdr",
-    "fhd",
-    "240p",
     "360p",
     "480p",
-    "540p",
     "720p",
-    "960p",
     "1080p",
-    "1440p",
-    "2K",
-    "2160p",
-    "4k",
-    "5K",
-    "8K",
+    "bluray",
+    "HdRip",
+    "web-dl",
 ]
 YEARS = [f"{i}" for i in range(2025, 2002, -1)]
 SEASONS = [f"season {i}" for i in range(1, 11)]
