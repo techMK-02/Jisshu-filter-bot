@@ -1183,7 +1183,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             user = query.from_user.id
         if int(user) != 0 and query.from_user.id != int(user):
             return await query.answer(script.ALRT_TXT, show_alert=True)
-        await query.answer("ᴛʜᴀɴᴋs ꜰᴏʀ ᴄʟᴏsᴇ 🙈")
+        await query.answer("ᴛʜᴀɴᴋs ꜰᴏʀ ᴄʟᴏsᴇ 🪽")
         await query.message.delete()
         try:
             await query.message.reply_to_message.delete()
@@ -1266,12 +1266,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🧿 ꜱᴛʀᴇᴀᴍ ᴏɴ ᴡᴇʙ 🖥", web_app=WebAppInfo(url=online)
+                    "𓆩ཫ  ꜱᴛʀᴇᴀᴍ ᴏɴ ᴡᴇʙ  ཀ𓆪", web_app=WebAppInfo(url=online)
                 )
             ],
             [
-                InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
-                InlineKeyboardButton("ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download),
+                InlineKeyboardButton("〄 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
+                InlineKeyboardButton("ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ 〄", url=download),
             ],
             [InlineKeyboardButton("✗ ᴄʟᴏsᴇ ✗", callback_data="close_data")],
         ]
@@ -1305,17 +1305,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "🔰  ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ  🔰",
+                    "𓆩• ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ •𓆪",
                     url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
-                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="help"),
-                InlineKeyboardButton("• ғᴇᴀᴛᴜʀᴇꜱ •", callback_data="special"),
+                InlineKeyboardButton("✯ ꜱᴘᴇᴄɪᴀʟ", callback_data="help"),
+                InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ ✇", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ •", callback_data="source"),
-                InlineKeyboardButton("• ɴᴏᴛɪᴄᴇ •", callback_data="about"),
+                InlineKeyboardButton("𓆩ཫ ᴅᴏɴᴀᴛᴇ", callback_data="source"),
+                InlineKeyboardButton("ɴᴏᴛɪᴄᴇ ཀ𓆪", callback_data="about"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1353,13 +1353,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "special":
         btn = [
             [
-                InlineKeyboardButton("• ᴍᴏsᴛ sᴇᴀʀᴄʜ •", callback_data="mostsearch"),
-                InlineKeyboardButton("• ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ •", callback_data="trending"),
+                InlineKeyboardButton("✇ ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs ✇", callback_data="telegraph"),
             ],
             [
-                InlineKeyboardButton("• ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs •", callback_data="telegraph"),
+                InlineKeyboardButton("✯ ᴛᴏᴘ ᴛʀᴇɴᴅɪɴɢ", callback_data="trending"),
+                InlineKeyboardButton("☣ ᴍᴏsᴛ sᴇᴀʀᴄʜ ", callback_data="mostsearch"),
             ],
-            [InlineKeyboardButton("⋞ ʜᴏᴍᴇ", callback_data="start")],
+            [InlineKeyboardButton("⪻ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⪼", callback_data="start")],
         ]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.edit_text(
@@ -1375,7 +1375,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     "♻️ ᴀʟʟ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴅᴇᴛᴀɪʟꜱ ♻️", callback_data="earn2"
                 )
             ],
-            [InlineKeyboardButton("⪻ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="start")],
+            [InlineKeyboardButton("⪻ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⪼  ", callback_data="start")],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1486,10 +1486,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [
             [
-                InlineKeyboardButton("• ᴀᴅᴍɪɴ •", callback_data="admincmd"),
-                InlineKeyboardButton("• ɢʀᴏᴜᴘ sᴇᴛᴜᴘ •", callback_data="earn2"),
+                InlineKeyboardButton("𓆩ཫ  ᴀᴅᴍɪɴ 🔐", callback_data="admincmd"),
+                InlineKeyboardButton("💰 ɢʀᴏᴜᴘ sᴇᴛᴜᴘ ཀ𓆪", callback_data="earn2"),
             ],
-            [InlineKeyboardButton("⋞ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="start")],
+            [InlineKeyboardButton("⋞ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⋟", callback_data="start")],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_media(
@@ -1512,12 +1512,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         )
                     ],
                     [
-                        InlineKeyboardButton("• ʀᴜʟᴇꜱ", callback_data="disclaimer"),
+                        InlineKeyboardButton("☤ ʀᴜʟᴇꜱ", callback_data="disclaimer"),
                         InlineKeyboardButton(
-                            "ʀᴜʟᴇꜱ •", callback_data="disclaimer"
+                            "ʀᴜʟᴇꜱ ☤", callback_data="disclaimer"
                         ),
                     ],
-                    [InlineKeyboardButton("⋞ ʜᴏᴍᴇ", callback_data="start")],
+                    [InlineKeyboardButton("⋞ ʜᴏᴍᴇ ⋟", callback_data="start")],
                 ]
             ),
             disable_web_page_preview=True,
@@ -1532,12 +1532,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "〄  ᴅᴏɴᴀᴛᴇ ᴏɴ ᴜᴘɪ  〄", url="https://wabxdonate.vercel.app/"
+                    "𓆩〄  ᴅᴏɴᴀᴛᴇ ᴏɴ ᴜᴘɪ 〄𓆪", url="https://wabxdonate.vercel.app/"
                 )
             ],
             [
                 InlineKeyboardButton("⋞ ʙᴀᴄᴋ", callback_data="start"),
-                InlineKeyboardButton("ᴘʀᴏᴏғꜱ ➹", url="https://t.me/+LpXXQBHePpo2Nzll"),
+                InlineKeyboardButton("ᴘʀᴏᴏғꜱ ⋟", url="https://t.me/+LpXXQBHePpo2Nzll"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1555,7 +1555,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [
             [
                 InlineKeyboardButton(
-                    " ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url=f"https://t.me/Filmysupport"
+                    "☏ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ", url="https://t.me/Filmysupport"
                 )
             ],
             [InlineKeyboardButton("⋞ ʙᴀᴄᴋ ", callback_data="about")],
