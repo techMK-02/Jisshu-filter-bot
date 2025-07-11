@@ -1532,12 +1532,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "𓆩〄  ᴅᴏɴᴀᴛᴇ ᴏɴ ᴜᴘɪ 〄𓆪", url="https://wabxdonate.vercel.app/"
+                    "𓆩〄  ᴅᴏɴᴀᴛᴇ ᴏɴ ᴜᴘɪ 〄𓆪", url="https://DevThanos.vercel.app"
                 )
             ],
             [
                 InlineKeyboardButton("⋞ ʙᴀᴄᴋ", callback_data="start"),
-                InlineKeyboardButton("ᴘʀᴏᴏғꜱ ⋟", url="https://t.me/+LpXXQBHePpo2Nzll"),
+                InlineKeyboardButton("ᴘʀᴏᴏғꜱ ⋟", url="https://t.me/+U1G7w88sqCpiMDc1"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
